@@ -1,0 +1,65 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<display-name>Tube planner</display-name>
+	<description>A tube journey planner</display-name>
+	<context-param>
+		<!-- Web server context initialisation goes here -->
+	</context-param>
+	<filter>
+		<!-- Filter(s) go here -->
+	</filter>
+	<filter-mapping>
+		<!-- Filter mapping to URLs goes here -->
+	</filter-mapping>
+	<listener>
+		<!-- Listeners go here -->
+	</listener>
+	<servlet>
+		<!-- Servlets go here -->
+	</servlet>
+	<servlet-mapping>
+		<!-- Map Servlets to URLs -->
+	</servlet-mapping>
+	<session-config>
+		<!-- Servlet configuration goes here -->
+	</session-config>
+	<mime-mapping>
+		<!-- Mapping extensions to mime-type goes here -->
+	</mime-mapping>
+	<welcome-file-list>
+		<!-- Welcome file list goes here (eg: index.html) -->
+	</welcome-file-list>
+	<error-page>
+		<!-- Optional error page goes here -->
+	</error-page>
+	<jsp-config>
+		<!-- JSP Tag libraries -->
+	</jsp-config>
+	<resource-env-ref>
+		<!-- References to administered resources in the Web application environment -->
+	</resource-env-ref>
+	<resource-ref>
+		<!-- Reference name to external resource -->
+	</resource-ref>
+	<security-constraint>
+		<!-- Security constraint -->
+	</security-constraint>
+	<login-config>
+		<!-- Log in config -->
+	</login-config>
+	<security-role>
+		<!-- Security role / realm mapping -->
+	</security-role>
+	<env-entry>
+		<!-- Separate environment entry per environment -->
+	</env-entry>
+	<ejb-ref>
+		<!-- Defines the reference to an EJB -->
+	</ejb-ref>
+	<ejb-local-ref>
+		<!-- Reference to an EJBs local home -->
+	</ejb-local-ref>
+	<web-app>
+		<!-- Servlet schema -->
+	</web-app>
+</web-app>
