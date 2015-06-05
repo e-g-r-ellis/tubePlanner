@@ -2,64 +2,101 @@
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<display-name>Tube planner</display-name>
 	<description>A tube journey planner</description>
+
+    <!--
 	<context-param>
-		<!-- Web server context initialisation goes here -->
+		Web server context initialisation goes here
 	</context-param>
+        -->
+    <!--
 	<filter>
-		<!-- Filter(s) go here -->
+		Filter(s) go here
 	</filter>
+	-->
+    <!--
 	<filter-mapping>
-		<!-- Filter mapping to URLs goes here -->
+		Filter mapping to URLs goes here
 	</filter-mapping>
+	-->
+    <!--
 	<listener>
-		<!-- Listeners go here -->
+		Listeners go here
 	</listener>
+	-->
 	<servlet>
-		<!-- Servlets go here -->
+		<servlet-name>index</servlet-name>
+		<jsp-file>/index.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
-		<!-- Map Servlets to URLs -->
+		<servlet-name>index</servlet-name>
+		<url-pattern>/index.html</url-pattern>
 	</servlet-mapping>
+    <!--
 	<session-config>
-		<!-- Servlet configuration goes here -->
+		Servlet configuration goes here
 	</session-config>
+	-->
+    <!--
 	<mime-mapping>
-		<!-- Mapping extensions to mime-type goes here -->
+		Mapping extensions to mime-type goes here
 	</mime-mapping>
+	-->
 	<welcome-file-list>
-		<!-- Welcome file list goes here (eg: index.html) -->
+		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
+    <!--
 	<error-page>
-		<!-- Optional error page goes here -->
+		Optional error page goes here
 	</error-page>
+	-->
+    <!--
 	<jsp-config>
-		<!-- JSP Tag libraries -->
+		JSP Tag libraries
 	</jsp-config>
+	-->
+    <!--
 	<resource-env-ref>
-		<!-- References to administered resources in the Web application environment -->
+		References to administered resources in the Web application environment
 	</resource-env-ref>
+	-->
+    <!--
 	<resource-ref>
-		<!-- Reference name to external resource -->
+		Reference name to external resource
 	</resource-ref>
+	-->
+    <!--
 	<security-constraint>
-		<!-- Security constraint -->
+		Security constraint
 	</security-constraint>
+	-->
+    <!--
 	<login-config>
-		<!-- Log in config -->
+		Log in config
 	</login-config>
+	-->
+    <!--
 	<security-role>
-		<!-- Security role / realm mapping -->
+		Security role / realm mapping
 	</security-role>
+	-->
+    <!--
 	<env-entry>
-		<!-- Separate environment entry per environment -->
+		Separate environment entry per environment
 	</env-entry>
+	-->
+    <!--
 	<ejb-ref>
-		<!-- Defines the reference to an EJB -->
+		Defines the reference to an EJB
 	</ejb-ref>
+	-->
+    <!--
 	<ejb-local-ref>
-		<!-- Reference to an EJBs local home -->
+		Reference to an EJBs local home
 	</ejb-local-ref>
+	-->
+    <!--
 	<web-app>
-		<!-- Servlet schema -->
+		Servlet schema
 	</web-app>
+	-->
 </web-app>
