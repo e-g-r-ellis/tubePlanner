@@ -27,10 +27,21 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/n
 		<servlet-name>index</servlet-name>
 		<jsp-file>/index.jsp</jsp-file>
 	</servlet>
+
+    <servlet>
+        <servlet-name>planServlet</servlet-name>
+        <servlet-class>net.ellise.tube.controller.servlet.PlanServlet</servlet-class>
+    </servlet>
+
 	<servlet-mapping>
 		<servlet-name>index</servlet-name>
 		<url-pattern>/index.html</url-pattern>
 	</servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>planServlet</servlet-name>
+        <url-pattern>/plan.html</url-pattern>
+    </servlet-mapping>
     <!--
 	<session-config>
 		Servlet configuration goes here
